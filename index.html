@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+</head>
+
+<body>
+    <nav class="flex justify-between items-center p-5 fixed  w-full">
+        <img src="/images/logo.svg" alt="Logo Malang TRVXL">
+        <ul class="text-white flex gap-5">
+            <li><a href="">Home</a></li>
+            <li><a href="">Stays</a></li>
+            <li><a href="">Flight</a></li>
+            <li><a href="">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Untuk section hero -->
+        <section class="bg-[url(/images/bg.jpg)] bg-cover h-screen flex flex-col justify-center items-center gap-12 p-5">
+
+            <h1 class="text-7xl text-white font-bold max-w-7xl">Book trip provider in Malang.</h1>
+
+            <div class="search-box flex gap-2 px-3 py-2 w-full bg-white/20 backdrop-blur-lg max-w-7xl rounded-2xl">
+
+                <label for="" class="flex gap-2 w-full">
+                    <img src="/images/ic-search.svg" class="w-5">
+                    <input type="text"class="w-full text-white" placeholder="Search destinations, hotels, or anything in Malang">
+
+                </label>
+                <button class="bg-white text-blue-500 px-6 py-3 font-semibold rounded-full hover:bg-blue-100 cursor-pointer">search</button>
+            </div>
+        </section>
+
+        
+        <section class="py-20">
+            <h2 class="text-4xl max-w-7xl w-full p-5">Top Destinations in Malang</h2>
+            <div class="flex gap-10 p-10 overflow-scroll snap-x snap-mandatory">
+                <div class=" snap-center card p-5 shadow-xl rounded-3xl gap-8 flex flex-col min-w-[640px]">
+                    <img src="/images/sumeru.jpg" class="w-[640px]">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+
+                <div class=" snap-center card p-5 shadow-xl rounded-3xl gap-8 flex flex-col min-w-[640px]">
+                    <img src="/images/park.jpg" class="w-[640px]">
+                    <p class="text-xl">Park</p>
+                    <p class="text-4xl text-blue-600">Florawisata Santerra  De Laponte</p>
+                </div>
+
+                <div class=" snap-center card p-5 shadow-xl rounded-3xl gap-8 flex flex-col min-w-[640px]">
+                    <img src="/images/rumput.jpg" class="w-[640px]">
+                    <p class="text-xl">Park</p>
+                    <p class="text-4xl text-blue-600">Coban Rondo</p>
+                </div>
+
+                <div class=" snap-center card p-5 shadow-xl rounded-3xl gap-8 flex flex-col min-w-[640px]">
+                    <img src="/images/batu secret.jpg" class="w-[640px]">
+                    <p class="text-xl">Park</p>
+                    <p class="text-4xl text-blue-600">Batu Secret Zoo</p>
+                </div>
+
+                <div class=" snap-center card p-5 shadow-xl rounded-3xl gap-8 flex flex-col min-w-[640px]">
+                    <img src="/images/air terjun.jpg" class="w-[640px]">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Air Terjun</p>
+                </div>
+            </div>
+        </section>
+
+        <section
+        class="bg-[url(/images/bg-consult.jpg)] bg-cover flex flex-col gap-5 max-w-screen-xl m-auto text-white p-16 rounded-3xl my-20">
+        <h2 class="text-6xl max-w-7xl w-full">Plan your trip with travel expert </h2>
+        <p class="text-xl">Our professional advisors can craft your perfect itinerary</p>
+
+            <button
+                class="bg-white text-blue-500 px-6 py-3 font-semibold rounded-full hover:bg-blue-100 cursor-pointer  focus:border-none w-fit">Search</button>
+        </section>
+
+        <section class="bg-[url(/images/img-bg.png)] bg-cover">
+            <div class="flex max-w-screen-xl mx-auto items-center pt-20">
+                <div class=" flex justify-center px-10">
+                    <img src="/images/iPhone 13 Mockup.png" alt="Screenshot of our App's homepage">
+                </div>
+
+                <div class="flex-1 flex flex-col gap-6">
+                    <div class="text-white">
+                        <h2 class="text-4xl pb-5">Your all-in-one Malang travel app.</h2>
+                        <p>Book flights, hotels, trains & rental cars anywhere in Malang in just seconds. Get real-time
+                            flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!</p>
+                    </div>
+
+                    <div class="flex gap-5  justify-between">
+                        <div class="text-white flex flex-col gap-4">
+                            <div class="flex">
+                                <button
+                                    class="cursor-pointer px-5 py-3 text-white bg-white/30 rounded-xl hover:bg-white/10">Mobile</button>
+                                <button
+                                    class="cursor-pointer px-5 py-3 text-white hover:bg-white/10 rounded-xl">Email</button>
+                            </div>
+
+                            <p>Enter your phone number to receive a text with a link to download the app.</p>
+
+                            <div class="p-2 rounded-xl bg-white/30 backdrop-blur-lg flex gap-2">
+                                <input type="text" class="focus:outline-hidden w-full" placeholder="Enter your mail">
+                                <button class="rounded-full px-5 py-3 bg-white text-blue-600">Submit</button>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end gap-5 flex-col">
+                            <img src="/images/image 22.png" alt="">
+                            <img src="/images/image 23.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
